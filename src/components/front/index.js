@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import{FrontSection,FrontSectionTitle,FrontTitle,FrontDesc} from './style.js'
+import{FrontSection,FrontSectionTitle,FrontTitle,FrontDesc} from './Style.js'
 class Front extends Component{
     render(){
         return(

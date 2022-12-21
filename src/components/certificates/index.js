@@ -1,7 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import './certificates.css'
+import './Certificates.css'
+import Picture2 from "./../../Images/7.jpg"
+import Picture3 from "./../../Images/8.jpg"
 export default function Certificates() {
   return (
    <div>
@@ -12,14 +14,14 @@ export default function Certificates() {
         <Carousel.Item interval={3000}>
           <img 
             className="d-block w-100 img1"
-src="images/7.jpg"
+src={Picture2}
             alt=""
           />
         </Carousel.Item>
         <Carousel.Item interval={3000}>
           <img 
             className="d-block w-100 img1"
-src="images/8.jpg"
+src={Picture3}
             alt=""
           />
         </Carousel.Item>

@@ -1,8 +1,8 @@
 import React  from "react";
-import { NavbarSection,LogoText,Logo,UlList,ListItem,Page,SamePage } from "./style.js";
-import Courses from './../courses/index';
-import Certificates from './../certificates/index';
-import Contact from './../contact/index';
+import { NavbarSection,LogoText,Logo,UlList,ListItem,Page,SamePage } from "./Style.js";
+import Courses from './../Courses/Index.js';
+import Certificates from './../Certificates/Index.js';
+import Contact from './../Contact/Index.js';
 const Navbar=()=>{
     return(
        <NavbarSection>

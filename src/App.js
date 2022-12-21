@@ -1,14 +1,14 @@
 import React,{Component} from "react";
 import { BrowserRouter,Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar"
-import Index from "./components/index"
-import Courses from "./components/courses";
-import Certificates from "./components/certificates";
-import Contact from "./components/contact";
-import Front from "./components/front";
-import Back from "./components/back";
-import Java from "./components/java";
-import Ios from "./components/ios";
+import Navbar from "./Components/Navbar/Index.js"
+import Index from "./Components/Index/Index.js"
+import Courses from "./Components/Courses/Index.js";
+import Certificates from "./Components/Certificates/Index.js";
+import Contact from "./Components/Contact/Index.js";
+import Front from "./Components/Front/Index.js";
+import Back from "./Components/Back/Index.js";
+import Java from "./Components/Java/Index.js";
+import Ios from "./Components/Ios/Index.js";
 class App extends Component{
   render(){
     return(

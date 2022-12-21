@@ -1,5 +1,9 @@
 import React,{Component} from "react";
-import{CoursesSection,CoursesPart,Part,Image,Title,Info,Number}from "./style.js"
+import{CoursesSection,CoursesPart,Part,Image,Title,Info,Number}from "./Style.js"
+import Picture7 from "./../../Images/3.jpg"
+import Picture8 from "./../../Images/4.png"
+import Picture9 from "./../../Images/5.jpg"
+import Picture10 from "./../../Images/6.jpg"
 class Courses extends Component{
     render(){
         return(
@@ -7,7 +11,7 @@ class Courses extends Component{
                 <CoursesPart to="/front">
                     <Part>
                         <center>
-                    < Image src="images/3.jpg"/>
+                    < Image src={Picture7}/>
                         </center>
                          <Title>
                             Front-End Development
@@ -22,7 +26,7 @@ class Courses extends Component{
                 <CoursesPart to="/back">
                 <Part>
                         <center>
-                    < Image src="images/4.png"/>
+                    < Image src={Picture8}/>
                         </center>
                          <Title>
                             Back-End Development
@@ -37,7 +41,7 @@ class Courses extends Component{
                 <CoursesPart to="/java">
                 <Part>
                         <center>
-                    < Image src="images/5.jpg"/>
+                    < Image src={Picture9}/>
                         </center>
                          <Title>
                           Java Mobile Development
@@ -52,7 +56,7 @@ class Courses extends Component{
                 <CoursesPart to="/ios">
                 <Part>
                         <center>
-                    < Image src="images/6.jpg"/>
+                    < Image src={Picture10}/>
                         </center>
                          <Title>
                             Ios App Development

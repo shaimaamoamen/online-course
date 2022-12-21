@@ -1,5 +1,5 @@
 import React from "react";
-import {HomeSection} from './style.js'
+import {HomeSection} from './Style.js'
 const Home=()=>{
     return(
         <HomeSection>

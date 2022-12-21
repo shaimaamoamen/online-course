@@ -1,5 +1,6 @@
 import React,{Component} from "react";
-import{AboutSection,AboutData,AboutInfo,AboutTitle,AboutDesc} from './style.js'
+import{AboutSection,AboutData,AboutInfo,AboutTitle,AboutDesc} from './Style.js'
+import Picture1 from "./../../Images/2.jpg"
 class About extends Component{
     render(){
         return(
@@ -18,7 +19,7 @@ class About extends Component{
                     </AboutInfo>
                 </AboutData>
                 <AboutData>
-                    <img src="images/2.jpg" />
+                    <img src={Picture1}/>
                 </AboutData>
                 
             </AboutSection>

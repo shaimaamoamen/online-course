@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import{FrontSection,FrontSectionTitle,FrontTitle,FrontDesc} from './style.js'
+import{FrontSection,FrontSectionTitle,FrontTitle,FrontDesc} from './Style.js'
 class Back extends Component{
     render(){
         return(

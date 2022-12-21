@@ -1,10 +1,10 @@
 import React,{Component} from "react";
-import Home from './../home'
-import About from './../about'
-import Courses from './../courses'
-import Certificates from './../certificates'
-import Contact from './../contact'
-import Video from './../video'
+import Home from "./../Home/Index.js"
+import About from './../About/Index.js'
+import Courses from './../Courses/Index.js'
+import Certificates from './../Certificates/Index.js'
+import Contact from './../Contact/Index.js'
+import Video from './../Video/Index.js'
 class Index extends Component{
     render(){
         return(
